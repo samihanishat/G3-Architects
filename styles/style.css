@@ -7,3 +7,67 @@
   font-weight: 400;
   font-style: normal;
 }
+/* nav related style */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+.nav-links{
+    display: flex;
+    gap: 50px;
+}
+.nav-item{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* shared styles */
+/* Dark01 */
+
+
+/* Dark02 */
+.text-gray{
+    color: #424242;
+}
+/* Dark03 */
+.text-light-gray{
+    color: #727272;
+}
+/* banner related styles */
+.bg-light{
+    background: rgba(255, 144, 14, 0.1);
+}
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn-primary{
+    background-color: #FF900E;
+    border: none;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.banner-image{
+    width: 100%;
+}
